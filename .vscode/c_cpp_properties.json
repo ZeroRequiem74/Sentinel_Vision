@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "ESP8266",
+            "includePath": [
+                "${workspaceFolder}/**",
+
+                "C:/Users/zeror/Documents/Arduino/libraries/**",
+
+                "C:/Users/zeror/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/**",
+
+                "C:/Users/zeror/AppData/Local/Arduino15/packages/esp8266/tools/**"
+            ],
+
+            "defines": [
+                "ARDUINO=10819",
+                "ESP8266"
+            ],
+
+            "compilerPath": "C:/Users/zeror/AppData/Local/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/bin/xtensa-lx106-elf-g++.exe",
+
+            "intelliSenseMode": "gcc-x64",
+
+            "cStandard": "c11",
+
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
