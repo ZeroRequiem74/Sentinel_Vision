@@ -1,11 +1,13 @@
 #include "adxl345.h"
 
 #include <Arduino.h>
+#include <Wire.h>
 
 void ADXL345_Init(void)
 {
-    Serial.println(
-        "ADXL345 Initialized");
+    Wire.begin();
+
+    Serial.println("ADXL345 Init");
 }
 
 void ADXL345_ReadXYZ(
@@ -16,9 +18,4 @@ void ADXL345_ReadXYZ(
     *x = 0.0f;
     *y = 0.0f;
     *z = 1.0f;
-
-    /*
-     * TODO:
-     * Read actual I2C registers
-     */
 }

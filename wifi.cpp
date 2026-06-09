@@ -11,13 +11,6 @@ void Wifi_Init(void)
         "dashcam123");
 }
 
-void Wifi_SendAccidentNotification(
-    void)
+void Wifi_SendAccidentNotification(void)
 {
-    /*
-     * Future:
-     * Send file link
-     * Send push notification
-     * Start web server
-     */
 }

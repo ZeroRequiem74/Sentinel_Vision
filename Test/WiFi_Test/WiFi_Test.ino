@@ -1,3 +1,4 @@
+#include <Arduino.h>
 #include <ESP8266WiFi.h>
 
 void setup()
@@ -10,7 +11,10 @@ void setup()
         "SentinelVision",
         "dashcam123");
 
+    Serial.println("AP Started");
+
     Serial.print("IP: ");
+
     Serial.println(
         WiFi.softAPIP());
 }
