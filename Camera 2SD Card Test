@@ -11,11 +11,12 @@
 // 4. Resolution can be changed by myCAM.set_JPEG_size() function.
 // This program requires the ArduCAM V4.0.0 (or later) library and ArduCAM ESP8266 2MP shield
 // and use Arduino IDE 1.5.2 compiler or above
-#include <ArduCAM.h>
+
 #include <Wire.h>
 #include <SPI.h>
 #include <SD.h>
 #include "memorysaver.h"
+#include <ArduCAM.h>
 #if !(defined ESP8266 )
 #error Please select the ArduCAM ESP8266 UNO board in the Tools/Board
 #endif
